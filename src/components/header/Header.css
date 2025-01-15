@@ -1,0 +1,42 @@
+.header {
+    background-color: #3a313b;
+    display: flex;
+    justify-content: space-between;
+    height: 10vw;
+    padding: 1vw;
+}
+
+.logo {
+    max-width: 100vw;
+    /* Define un ancho máximo */
+    height: auto;
+    /* Mantiene las proporciones */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 3vw;
+
+}
+
+.header-button {
+    width: 15vw;
+    height: 4vw;
+    background-color: #3a313b;
+    color: azure;
+    border: 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.header-button:hover {
+    background-color: #160e18;
+    border: 2px solid #c922db;
+    box-shadow: inset 0 0 10px 4px rgba(201, 34, 219, 0.4), /* Sombra interior más difusa */
+    inset 0 0 15px 6px rgba(201, 34, 219, 0.2); /* Sombra interior difusa */
+    transition: box-shadow 0.2s ease; /* Para transiciones suaves */
+
+  }
