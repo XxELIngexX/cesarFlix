@@ -8,7 +8,7 @@ const Modal = (props)=>{
       <span className="close" onClick={props.changeModal} >
         &times;
       </span>
-      <Form mensaje={"Editar Tarjeta"}/> {/* Aquí se incluye el formulario */}
+      <Form  mensaje={"Editar Tarjeta"}/> {/* Aquí se incluye el formulario */}
     </div>
   </div>
   </>
