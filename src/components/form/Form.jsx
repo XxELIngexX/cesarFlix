@@ -1,14 +1,14 @@
 
 import "./Form.css"
 
-const Form = () => {
+const Form = (props) => {
     return (
         <div className="card">
-            <div className="title-continer" >
+            {/* <div className="title-continer" >
                 <h2 className="title">NUEVO VIDEO</h2>
                 <p className="subtitle">COMPLETE EL FORMULARIO PARA CREAR UNA NUEVA TARJETA DE VIDEO</p>
-            </div>
-            <h3 className="h3">Crear Tarjeta</h3>
+            </div> */}
+            <h3 className="h3">{props.mensaje}</h3>
             <form className="form">
                 <div className="input-group" >
                     <label htmlFor="title" className="label">Título</label>
