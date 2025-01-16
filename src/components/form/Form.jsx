@@ -1,80 +1,109 @@
+import { useState } from "react"
+import { useNavigate } from "react-router-dom"; 
 
 import "./Form.css"
+import Campo from "./campo/Campo"
+import CategoriesList from "./categoriesList/CategoriesList"
 
 const Form = (props) => {
+
+
+    const [titulo, actualizarTitulo] = useState(props.titulo)
+    const [categoria, actualizarCategoria] = useState(props.categoria)
+    const [imagen, actualizarImagen] = useState(props.imagen)
+    const [video, actualizarVideo] = useState(props.video)
+    const [descripcion, actualizarDescripcion] = useState(props.descripcion)
+
+    const navigate = useNavigate();
+
+
+    const limpiar = (e) => {
+        actualizarTitulo("")
+        actualizarCategoria("")
+        actualizarImagen("")
+        actualizarVideo("")
+        actualizarDescripcion("")
+    }
+    const manejarDatos = (e) => {
+        e.preventDefault()
+        const id = props.id
+        console.log("Manejar el envio")
+        let datosAEnviar = {
+            id,
+            titulo,
+            categoria,
+            imagen,
+            video,
+            descripcion
+        }
+
+        if (props.crearVideo) {
+            props.crearVideo(datosAEnviar)
+            navigate("/")
+
+        } else if (props.editarVideo) {
+
+            props.changeModal()
+
+            props.editarVideo(datosAEnviar)
+        }
+
+
+    }
+
     return (
         <div className="card">
-            {/* <div className="title-continer" >
-                <h2 className="title">NUEVO VIDEO</h2>
-                <p className="subtitle">COMPLETE EL FORMULARIO PARA CREAR UNA NUEVA TARJETA DE VIDEO</p>
-            </div> */}
+
             <h3 className="h3">{props.mensaje}</h3>
-            <form className="form">
-                <div className="input-group" >
-                    <label htmlFor="title" className="label">Título</label>
-                    <input
-                        type="text"
-                        id="title"
-                        name="title"
-                        placeholder="Ingrese el título"
-                        className="input"
-                    />
-                </div>
+            <form className="form" onSubmit={(e) => manejarDatos(e)}>
+                <Campo
+                    titulo="Titulo"
+                    placeholder="Ingrese el título"
+                    required
+                    valor={titulo}
+                    actualizarValor={actualizarTitulo}
+                    className="input"
 
-                <div className="input-group" >
-                    <label htmlFor="category" className="label" >Categoría</label>
-                    <select
-                        id="category"
-                        name="category"
-                        className="select"
-                    >
-                        <option value="">Seleccione una categoría</option>
-                        <option value="category1">Categoría 1</option>
-                        <option value="category2">Categoría 2</option>
-                        <option value="category3">Categoría 3</option>
-                    </select>
-                </div>
+                />
+                <CategoriesList
+                    valor={categoria}
+                    actualizarCategoria={actualizarCategoria}
+                    className="select"
 
-                <div className="input-group" >
-                    <label htmlFor="image" className="label">Imagen</label>
-                    <input
-                        type="text"
-                        id="image"
-                        name="image"
-                        placeholder="Ingrese el enlace de la imagen"
-                        className="input"
+                />
 
-                    />
+                <Campo
+                    titulo="Imagen"
+                    placeholder="Ingrese el enlace de la imagen"
+                    required
+                    valor={imagen}
+                    actualizarValor={actualizarImagen}
+                    className="input"
 
-                </div>
+                />
 
-                <div className="input-group" >
-                    <label htmlFor="video" className="label">Video</label>
-                    <input
-                        type="text"
-                        id="video"
-                        name="video"
-                        placeholder="Ingrese el enlace del video"
-                        className="input"
-
-                    />
-                </div>
-
-                <div className="input-group" >
-                    <label htmlFor="description" className="label">Descripción</label>
-                    <textarea
-                        id="description"
-                        name="description"
-                        placeholder="¿De qué se trata este video?"
-                        className="textarea"
+                <Campo
+                    titulo="Video"
+                    placeholder="Ingrese el enlace del video"
+                    required
+                    valor={video}
+                    actualizarValor={actualizarVideo}
+                    className="input"
+                />
+                <Campo
+                    titulo="Descripción"
+                    placeholder="¿De qué se trata este video?"
+                    required
+                    valor={descripcion}
+                    actualizarValor={actualizarDescripcion}
+                    className="textarea"
+                />
 
 
-                    />
-                </div>
 
                 <div className="button-group" >
                     <button type="submit" className="submit-button" >GUARDAR</button>
-                    <button type="button" className="clear-button">LIMPIAR</button>
+                    <button type="button" className="clear-button" onClick={limpiar}>LIMPIAR</button>
                 </div>
             </form>
         </div>

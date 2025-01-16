@@ -1,20 +1,17 @@
-import { useState, useEffect } from "react"
 import Content from "../content/Content"
 import "./Banner.css"
 import Category from "./category/Category"
 import { buscar } from "../../api/api"
+import Nav from "./nav/Nav"
 
 const Banner = (props) => {
 
-const {categories,videos}=props
+const {categories,videos, routes,editarVideoInfo,eliminarVideo}=props
     
 
     return <div className="banner-container">
         <div className="nav-bar">
-            <Category />
-            <h1>titulo del video</h1>
-            <p>descripcion del video puede ser</p>
-            <img></img>
+            <Nav videos={videos} categorias={categories}/>
             {/* categoria, titulo, descripcion,foto */}
         </div>
         {
@@ -23,6 +20,10 @@ const {categories,videos}=props
                     datos={categoria}
                     key={categoria.nombre}
                     videos={videos.filter(video=> video.categoria === categoria.nombre)}
+                    paths={routes}
+                    editarVideoInfo={editarVideoInfo}
+                    eliminarVideo={eliminarVideo}
+
                     
                 />
             )

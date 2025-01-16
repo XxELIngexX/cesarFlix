@@ -1,134 +1,131 @@
 {
-    "categories":[
-        {
-            "id":1,
-            "nombre":"Metal Family",
-            "color1":"#801616fb",
-            "color2":"#ff0000e6",
-            "color3":"#ffae00cc"
-            
-
-        },
-        {
-            "id":2,
-            "nombre":"Dave el Barbaro",
-            "color1":"#206920",
-            "color2":"#008000e6",
-            "color3":"#0edd53cc"
-        },
-        {
-            "id":3,
-            "nombre":"Los padrinos mágicos",
-            "color1":"#f06991",
-            "color2":"#ff1493e6",
-            "color3":"#ff69b4cc"
-        },
-        {
-            "id":4,
-            "nombre":"Kid vs Cat",
-            "color1":"#64299be1",
-            "color2":"#9411f1e6",
-            "color3":"#8209f3cc"
-        }
-    ],
-    "videos":[
-        {
-            "id":1,
-            "titulo":"La historia no ha terminado",
-            "categoria":"Metal Family",
-            "imagen":"https://img.youtube.com/vi/Rr5BjeY2LNU/maxresdefault.jpg",
-            "video":"https://www.youtube.com/watch?v=Rr5BjeY2LNU&ab_channel=Storylies",
-            "descripcion":"Cuenta la historia de como Glem se enamoró y va en busca de su amor Victoria, pasando por muchas adversidades, mostrando asi el inicio de si relación"
-            
-        },
-        {
-            "id":2,
-            "titulo":"Papá a escuela",
-            "categoria":"Metal Family",
-            "imagen":"https://img.youtube.com/vi/nNuiNmJc7j0/maxresdefault.jpg",
-            "video":"https://www.youtube.com/watch?v=nNuiNmJc7j0&ab_channel=Storylies",
-            "descripcion":"La maestra no esta feliz con la apariencia de Heavy, asi que manda a llamar a Glem a la escuela, lo que ellas no saben es que el no tolerará la discriminacion"
-        },
-        {
-            "id":3,
-            "titulo":"El defensor",
-            "categoria":"Metal Family",
-            "imagen":"https://img.youtube.com/vi/Ccb67JcpT3k/maxresdefault.jpg",
-            "video":"https://www.youtube.com/watch?v=Ccb67JcpT3k&ab_channel=Storylies",
-            "descripcion":"Dee cobra a los estudiantes para ayudarlos a hacer trampa en los examenes, pero algo sale mal cuando en medio de esto, intenta defender a Heavy que es golpeado"
-        },
-        {
-            "id":4,
-            "titulo":"El rescate de Lula / El rap",
-            "categoria":"Dave el Barbaro",
-            "imagen":"https://img.youtube.com/vi/-2l0OxdjptU/maxresdefault.jpg",
-            "video":"https://www.youtube.com/watch?v=-2l0OxdjptU&ab_channel=CanalParaNi%C3%B1os",
-            "descripcion":"Fang desarrolla una extraña alergia que la hace estornudar sin parar, lo cual complica las cosas para Dave y su familia. Mientras tanto, Dave se enfrenta a un hechizo que le hace perder todo su cabello, lo que lo deja completamente incómodo y desorientado."
-        },
-        {
-            "id":5,
-            "titulo":"El panecillo",
-            "categoria":"Dave el Barbaro",
-            "imagen":"https://img.youtube.com/vi/iPznasila5g/maxresdefault.jpg",
-            "video":"https://www.youtube.com/watch?v=iPznasila5g&ab_channel=CanalParaNi%C3%B1os",
-            "descripcion":"el reino de Udrogoth enfrenta una amenaza muy inusual: un gigantesco panecillo que comienza a atacar el castillo. Este panecillo gigante no solo causa caos, sino que tiene un poder destructivo inesperado. Mientras tanto, Dave, con su naturaleza cobarde, intenta encontrar una forma de lidiar con este extraño enemigo. Mientras tanto, Fang, su hermana menor, continúa con su problema de estornudos, lo que hace aún más difícil la situación."
-        },
-        {
-            "id":6,
-            "titulo":"La Sabia",
-            "categoria":"Dave el Barbaro",
-            "imagen":"https://img.youtube.com/vi/cGtrt1BtZ_E/maxresdefault.jpg",
-            "video":"https://www.youtube.com/watch?v=cGtrt1BtZ_E&t=100s&ab_channel=CanalParaNi%C3%B1os",
-            "descripcion":" Dave decide que necesita mejorar sus habilidades culinarias, específicamente para hacer sus famosas tortillas. Para ello, se embarca en una búsqueda para encontrar la sabia, una hierba mística que le dará el toque especial a sus tortillas. Sin embargo, las cosas se complican cuando el grupo descubre que la sabia está en manos de una misteriosa y excéntrica sabia que vive en lo profundo de un bosque peligroso."
-        },
-        {
-            "id":7,
-            "titulo":"Los Libros Cobran Vida ",
-            "categoria":"Los padrinos mágicos",
-            "imagen":"https://img.youtube.com/vi/NotDvmaqn8s/maxresdefault.jpg",
-            "video":"https://www.youtube.com/watch?v=NotDvmaqn8s&ab_channel=SeriesClub",
-            "descripcion":"Timmy desea que sus libros de la escuela cobren vida para tener una aventura emocionante. Los personajes de los libros se hacen reales, causando caos en su hogar y la ciudad. Timmy y sus padrinos mágicos, Cosmo y Wanda, deben solucionar el desastre y aprender que tener demasiada emoción puede ser problemático."
-        },
-        {
-            "id":8,
-            "categoria":"Los padrinos mágicos",
-            "titulo":"Alguien Molesta en el Castiloo",
-            "imagen":"https://i.pinimg.com/736x/de/79/38/de79385ac8f01ba40e5ffc05e98b6e5a.jpg",
-            "video":"https://www.youtube.com/watch?v=R3GcSOToO18&ab_channel=canalkids",
-            "descripcion":"Timmy explora el castillo de los padrinos mágicos. Mientras explora, Cosmo lo busca junto a su moneda llamada Philip, creyendo que es un ladron. La situación se complica cuando las cosas comienzan a descontrolarse, y Timmy aprende una lección sobre los peligros de meterse en lugares desconocidos."
-        },
-        {
-            "id":9,
-            "titulo":"miss Dimsdale",
-            "categoria":"Los padrinos mágicos",
-            "imagen":"https://i.pinimg.com/originals/32/e3/37/32e337c1623657af892eebcec539b1b9.jpg",
-            "video":"https://www.youtube.com/watch?v=uM3x2-xdliI&ab_channel=LospadrinosMagicos2024",
-            "descripcion":"Vicky hace trampa en el certamen de belleza Miss Dimmsdale para ganar, descalificando a otras participantes y sobornando a los jueces. Timmy, con la ayuda de Gato-Man, intenta detenerla y asegurar que el certamen sea justo. Al final, logran exponer las trampas de Vicky."
-        },
-        {
-            "id":10,
-            "titulo":"Los intrusos serán perseguidos",
-            "categoria":"Kid vs Cat",
-            "imagen":"https://img.youtube.com/vi/XVKh6W0ZF7g/maxresdefault.jpg",
-            "video":"https://www.youtube.com/watch?v=XVKh6W0ZF7g&ab_channel=Ni%C3%B1oVs.Gato-WildBrain",
-            "descripcion":"Coop lanza un globo de agua a la Señora Munson por accidente, lo que provoca que Señor Gato se vengue usándola. Coop y Dennis intentan atrapar a Señor Gato durante la noche, pero terminan en el jardín de la Señora Munson. Al final, Coop usa hierba de gato para capturarlo, pero solo causa caos, y termina vengándose lanzándole un globo de agua a Señor Gato."
-        },
-        {
-            "id":11,
-            "titulo":"Captura al gato",
-            "categoria":"Kid vs Cat",
-            "imagen":"https://img.youtube.com/vi/vnkL553qmws/maxresdefault.jpg",
-            "video":"https://www.youtube.com/watch?v=vnkL553qmws&ab_channel=Ni%C3%B1oVs.Gato-WildBrain",
-            "descripcion":"Coop y sus amigos juegan a captura la bandera, pero Señor Gato pone trampas para que pierdan. Coop debe elegir entre salvar a Lorn de una trampa o dejar que Millie gane. Al final, Phoebe congela a Millie, asegurando la victoria del equipo de Coop, pero dejan a Harley congelado en el bosque."
-        },
-        {
-            "id":12,
-            "titulo":"El caso de la barredora",
-            "categoria":"Kid vs Cat",
-            "imagen":"https://img.youtube.com/vi/aX9PJrj3CXg/maxresdefault.jpg",
-            "video":"https://www.youtube.com/watch?v=aX9PJrj3CXg&ab_channel=Ni%C3%B1oVs.Gato-WildBrain",
-            "descripcion":" la Señora Munson culpa a Coop y sus amigos por chocar una barredora contra un árbol. Cada uno cuenta su versión de la historia, pero todas coinciden en que Señor Gato es el culpable. Al final, el Sr. Chipowsky admite su error, pero la Señora Munson sigue furiosa. La historia termina con Señor Gato riendo maliciosamente como si fuera Coop."
-        }
-    ]
+  "categories": [
+    {
+      "id": "1",
+      "nombre": "Metal Family",
+      "color1": "#801616fb",
+      "color2": "#ff0000e6",
+      "color3": "#ffae00cc"
+    },
+    {
+      "id": "2",
+      "nombre": "Dave el Barbaro",
+      "color1": "#206920",
+      "color2": "#008000e6",
+      "color3": "#0edd53cc"
+    },
+    {
+      "id": "3",
+      "nombre": "Los padrinos mágicos",
+      "color1": "#f06991",
+      "color2": "#ff1493e6",
+      "color3": "#ff69b4cc"
+    },
+    {
+      "id": "4",
+      "nombre": "Kid vs Cat",
+      "color1": "#64299be1",
+      "color2": "#9411f1e6",
+      "color3": "#8209f3cc"
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "titulo": "La historia no ha terminado",
+      "categoria": "Metal Family",
+      "imagen": "https://img.youtube.com/vi/Rr5BjeY2LNU/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=Rr5BjeY2LNU&ab_channel=Storylies",
+      "descripcion": "Cuenta la historia de como Glem se enamoró y va en busca de su amor Victoria, pasando por muchas adversidades, mostrando asi el inicio de si relación"
+    },
+    {
+      "id": "2",
+      "titulo": "Papá a escuela",
+      "categoria": "Metal Family",
+      "imagen": "https://img.youtube.com/vi/nNuiNmJc7j0/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=nNuiNmJc7j0&ab_channel=Storylies",
+      "descripcion": "La maestra no esta feliz con la apariencia de Heavy, asi que manda a llamar a Glem a la escuela, lo que ellas no saben es que el no tolerará la discriminacion"
+    },
+    {
+      "id": "3",
+      "titulo": "El defensor",
+      "categoria": "Metal Family",
+      "imagen": "https://img.youtube.com/vi/Ccb67JcpT3k/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=Ccb67JcpT3k&ab_channel=Storylies",
+      "descripcion": "Dee cobra a los estudiantes para ayudarlos a hacer trampa en los examenes, pero algo sale mal cuando en medio de esto, intenta defender a Heavy que es golpeado"
+    },
+    {
+      "id": "4",
+      "titulo": "El rescate de Lula / El rap",
+      "categoria": "Dave el Barbaro",
+      "imagen": "https://img.youtube.com/vi/-2l0OxdjptU/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=-2l0OxdjptU&ab_channel=CanalParaNi%C3%B1os",
+      "descripcion": "Fang desarrolla una extraña alergia que la hace estornudar sin parar, lo cual complica las cosas para Dave y su familia. Mientras tanto, Dave se enfrenta a un hechizo que le hace perder todo su cabello, lo que lo deja completamente incómodo y desorientado."
+    },
+    {
+      "id": "5",
+      "titulo": "El panecillo",
+      "categoria": "Dave el Barbaro",
+      "imagen": "https://img.youtube.com/vi/iPznasila5g/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=iPznasila5g&ab_channel=CanalParaNi%C3%B1os",
+      "descripcion": "el reino de Udrogoth enfrenta una amenaza muy inusual: un gigantesco panecillo que comienza a atacar el castillo. Este panecillo gigante no solo causa caos, sino que tiene un poder destructivo inesperado. Mientras tanto, Dave, con su naturaleza cobarde, intenta encontrar una forma de lidiar con este extraño enemigo. Mientras tanto, Fang, su hermana menor, continúa con su problema de estornudos, lo que hace aún más difícil la situación."
+    },
+    {
+      "id": "6",
+      "titulo": "La Sabia",
+      "categoria": "Dave el Barbaro",
+      "imagen": "https://img.youtube.com/vi/cGtrt1BtZ_E/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=cGtrt1BtZ_E&t=100s&ab_channel=CanalParaNi%C3%B1os",
+      "descripcion": " Dave decide que necesita mejorar sus habilidades culinarias, específicamente para hacer sus famosas tortillas. Para ello, se embarca en una búsqueda para encontrar la sabia, una hierba mística que le dará el toque especial a sus tortillas. Sin embargo, las cosas se complican cuando el grupo descubre que la sabia está en manos de una misteriosa y excéntrica sabia que vive en lo profundo de un bosque peligroso."
+    },
+    {
+      "id": "7",
+      "titulo": "Los Libros Cobran Vida ",
+      "categoria": "Los padrinos mágicos",
+      "imagen": "https://img.youtube.com/vi/NotDvmaqn8s/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=NotDvmaqn8s&ab_channel=SeriesClub",
+      "descripcion": "Timmy desea que sus libros de la escuela cobren vida para tener una aventura emocionante. Los personajes de los libros se hacen reales, causando caos en su hogar y la ciudad. Timmy y sus padrinos mágicos, Cosmo y Wanda, deben solucionar el desastre y aprender que tener demasiada emoción puede ser problemático."
+    },
+    {
+      "id": "8",
+      "categoria": "Los padrinos mágicos",
+      "titulo": "Alguien Molesta en el Castiloo",
+      "imagen": "https://i.pinimg.com/736x/de/79/38/de79385ac8f01ba40e5ffc05e98b6e5a.jpg",
+      "video": "https://www.youtube.com/watch?v=R3GcSOToO18&ab_channel=canalkids",
+      "descripcion": "Timmy explora el castillo de los padrinos mágicos. Mientras explora, Cosmo lo busca junto a su moneda llamada Philip, creyendo que es un ladron. La situación se complica cuando las cosas comienzan a descontrolarse, y Timmy aprende una lección sobre los peligros de meterse en lugares desconocidos."
+    },
+    {
+      "id": "9",
+      "titulo": "miss Dimsdale",
+      "categoria": "Los padrinos mágicos",
+      "imagen": "https://i.pinimg.com/originals/32/e3/37/32e337c1623657af892eebcec539b1b9.jpg",
+      "video": "https://www.youtube.com/watch?v=uM3x2-xdliI&ab_channel=LospadrinosMagicos2024",
+      "descripcion": "Vicky hace trampa en el certamen de belleza Miss Dimmsdale para ganar, descalificando a otras participantes y sobornando a los jueces. Timmy, con la ayuda de Gato-Man, intenta detenerla y asegurar que el certamen sea justo. Al final, logran exponer las trampas de Vicky."
+    },
+    {
+      "id": "10",
+      "titulo": "Los intrusos serán perseguidos",
+      "categoria": "Kid vs Cat",
+      "imagen": "https://img.youtube.com/vi/XVKh6W0ZF7g/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=XVKh6W0ZF7g&ab_channel=Ni%C3%B1oVs.Gato-WildBrain",
+      "descripcion": "Coop lanza un globo de agua a la Señora Munson por accidente, lo que provoca que Señor Gato se vengue usándola. Coop y Dennis intentan atrapar a Señor Gato durante la noche, pero terminan en el jardín de la Señora Munson. Al final, Coop usa hierba de gato para capturarlo, pero solo causa caos, y termina vengándose lanzándole un globo de agua a Señor Gato."
+    },
+    {
+      "id": "11",
+      "titulo": "Captura al gato",
+      "categoria": "Kid vs Cat",
+      "imagen": "https://img.youtube.com/vi/vnkL553qmws/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=vnkL553qmws&ab_channel=Ni%C3%B1oVs.Gato-WildBrain",
+      "descripcion": "Coop y sus amigos juegan a captura la bandera, pero Señor Gato pone trampas para que pierdan. Coop debe elegir entre salvar a Lorn de una trampa o dejar que Millie gane. Al final, Phoebe congela a Millie, asegurando la victoria del equipo de Coop, pero dejan a Harley congelado en el bosque."
+    },
+    {
+      "id": "12",
+      "titulo": "El caso de la barredora",
+      "categoria": "Kid vs Cat",
+      "imagen": "https://img.youtube.com/vi/aX9PJrj3CXg/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=aX9PJrj3CXg&ab_channel=Ni%C3%B1oVs.Gato-WildBrain",
+      "descripcion": " la Señora Munson culpa a Coop y sus amigos por chocar una barredora contra un árbol. Cada uno cuenta su versión de la historia, pero todas coinciden en que Señor Gato es el culpable. Al final, el Sr. Chipowsky admite su error, pero la Señora Munson sigue furiosa. La historia termina con Señor Gato riendo maliciosamente como si fuera Coop."
+    }
+    
+  ]
 }
-

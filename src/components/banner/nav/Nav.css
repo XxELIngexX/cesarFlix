@@ -1,0 +1,31 @@
+.video-item{
+    display: flex;
+    align-content: space-between;
+    gap: 20%;
+    padding: 5%;
+}
+.info{
+ 
+}
+.video-categoria{
+
+}
+.video-image{
+        width: 30%;
+        height: 100%;
+        border-radius: 15px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.prev-button {
+    transform: rotate(180deg);}
+.nav-buttons{
+    scale: 3;
+    background-color: rgba(133, 43, 218, 0.511);
+    border-radius: 100%;
+}

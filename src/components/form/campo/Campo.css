@@ -1,0 +1,10 @@
+.input,
+.select,
+.textarea {
+  padding: 2%;
+  background-color: #3a313b;
+  border-radius: 1vw;
+  color: #fff;
+  font-size: 1.2vw;
+  border: 2px solid #514752;
+}
